@@ -1,0 +1,22 @@
+{
+  "name": "aws-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/server",
+    "local:connect":  "ssh -i 'aws_t2.pem' ubuntu@ec2-52-0-189-98.compute-1.amazonaws.com"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.8",
+    "express": "^4.17.1"
+  }
+}
