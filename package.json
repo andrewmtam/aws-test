@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node src/server",
-    "local:connect":  "ssh -i 'aws_t2.pem' ubuntu@ec2-52-0-189-98.compute-1.amazonaws.com"
+    "ssh":  "ssh -i 'aws_t2.pem' ubuntu@ec2-52-0-189-98.compute-1.amazonaws.com"
   },
   "author": "",
   "license": "ISC",
